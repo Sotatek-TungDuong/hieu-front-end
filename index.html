@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dienthoaiuytin</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="icon/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <!--header-->
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#">Giới Thiệu</a></li>
+                <li><a href="/home.html">Trang chủ</a></li>
+                <li>
+                    <a href="">
+                        Xem thêm
+                    <i class="ti-" class=" nav-icon-xuong ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#Thongtin">Thông tin</a></li>
+                        <li><a href="#Lienhe">Liên hệ</a></li>
+                       
+                    </ul>
+                </li>
+            </ul>
+        <div class="header-search">
+            <i class="ti-" class="search ti-search"></i>
+        </div>
+        </div>
+        <!--slider-->
+        <div class="slider">
+            <div class="slide">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+        
+        
+            <div class="st first">
+                <img src="./assets/img/images/img1.jpg" alt="">
+            </div>
+            <div class="st">
+                <img src="./assets/img/images/img2.jpg" alt="">
+            </div>
+            <div class="st">
+                <img src="./assets/img/images/img3.jpg" alt="">
+            </div>
+            <div class="st">
+                <img src="./assets/img/images/img4.jpg" alt="">
+            </div>
+        
+            <div class="nav-auto">
+               <div class="a-b1"></div>
+               <div class="a-b2"></div> 
+               <div class="a-b3"></div> 
+               <div class="a-b4"></div> 
+            </div>
+        
+            <div class="navSlider-m">
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+                <label for="radio1" class="m-btn"></label>
+            </div>
+            </div>
+        </div>
+
+      <!--Content-->
+      <div id="content">
+        <div id="Thongtin" class="content-section">
+         <h2 class="section-heading">ĐIỆN THOẠI UY TÍN</h2>
+         <p class="section-sub-heading">Vui lòng khách đến , vừa lòng khách đi</p>
+       <p class="about-text">
+         Điện thoại uy tín là một shop điện thoại nổi tiếng thế giới được sáng lập bởi 3 thành viên gồm : Phạm Ngọc Thiết, Nguyễn Đức Tùng Lâm, Vương Đắc Minh Hiếu.
+         Với hơn 20 năm trong nghề bán điện thoại, shop tự tin chiều lòng những khách hàng khó tính nhất. Shop chuyên bán và tư vấn về các loại điện thoại hay phụ kiện điện thoại...
+       </p>
+
+    
+        </div>
+    </div>
+    <div     id="Lienhe">
+    <div class="content-section">
+        <h2 class="section-heading">Liên hệ</h2>
+        <p class="section-sub-heading">Bạn muốn đóng góp ý kiến cho shop?</p>
+
+        <div class="row contact-content">
+            <div class="col col-half contact-info">
+                <p><i class="ti-" class="ti-location-pin"></i>Địa chỉ: Hà Nội, VN</p>
+                <p><i class="ti-" class="ti-mobile"></i>SĐT: 098765JQK</p>
+                <p><i class="ti-" class="ti-email"></i>Email: Dienthoaiuytin@gmail.com</p>
+            </div>
+
+            <div class="col col-half">
+                <form action="">
+                    <div class="row">
+                        <div class="col col-half contact-form">
+                            <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                        </div>
+                        <div class="col col-half contact-form">
+                            <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                        </div>
+
+                    </div>
+                    <div class="row mt-8">
+                        <div class="col col-full contact-form">
+                            <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                        </div>
+                    
+                    </div>
+                    <input  class="btn pull-right mt-16 "type="submit" value="SEND">
+                </form>
+
+            </div>
+            <div class="avt-section">
+                <img src="./assets/img/content/avt1.jpg" alt="avt">
+             </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <div class="social-list">
+            <a href=""><i class="ti-facebook"></i></a>
+            <a href=""><i class="ti-instagram"></i></a>
+            <a href=""><i class="ti-pinterest"></i></a>
+            <a href=""><i class="ti-twitter"></i></a>
+            <a href=""><i class="ti-linkedin"></i></a>
+            <a href=""><i class="ti-youtube"></i></a>
+
+        </div>
+        <p class="copyright"><a href="">Điện thoại uy tín</a></p>
+    </div>
+    <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked=true;
+        counter++;
+        if(counter>4){
+            counter=1;
+        }
+        },2000);
+    </script>
